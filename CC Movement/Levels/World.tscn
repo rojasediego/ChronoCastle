@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Sprites/KinematicBody2D.gd" type="Script" id=1]
-[ext_resource path="res://Sprites/mc placeholder.png" type="Texture" id=2]
-[ext_resource path="res://Sprites/enemy placeholder.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/enemy placeholder.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/mc placeholder.png" type="Texture" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 10, 19 )
@@ -19,7 +19,7 @@ script = ExtResource( 1 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="KinematicBody2D"]
-texture = ExtResource( 2 )
+texture = ExtResource( 3 )
 
 [node name="Area2D" type="Area2D" parent="KinematicBody2D"]
 
@@ -28,4 +28,4 @@ shape = SubResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 152, 3 )
-texture = ExtResource( 3 )
+texture = ExtResource( 2 )
