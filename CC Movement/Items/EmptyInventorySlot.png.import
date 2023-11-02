@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/keys_1_4.png-912551c8c72e2317b3c632449c277a9c.stex"
+path="res://.import/EmptyInventorySlot.png-855f36894b0ce0714adc7c316894ad89.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_1_4.png"
-dest_files=[ "res://.import/keys_1_4.png-912551c8c72e2317b3c632449c277a9c.stex" ]
+source_file="res://Items/EmptyInventorySlot.png"
+dest_files=[ "res://.import/EmptyInventorySlot.png-855f36894b0ce0714adc7c316894ad89.stex" ]
 
 [params]
 
